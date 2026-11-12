@@ -11,3 +11,4 @@ class Config:
     MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD", "Teju@1978")
     MYSQL_DATABASE = os.getenv("MYSQL_DATABASE", "intelligrade")
     MYSQL_PORT = int(os.getenv("MYSQL_PORT", "3306"))
+    ....
